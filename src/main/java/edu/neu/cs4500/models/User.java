@@ -7,6 +7,15 @@ public class User {
 	private String firstName;
 	private String lastName;
 
+	//constructor
+	public User(Integer id, String username, String password,
+			String firstName, String lastName) {
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
 	//id
 	public Integer getId() {
 		return id;
